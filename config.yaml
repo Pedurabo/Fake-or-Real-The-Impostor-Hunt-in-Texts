@@ -1,0 +1,46 @@
+# Configuration file for Fake or Real: The Impostor Hunt in Texts
+
+# Data paths
+data:
+  train_path: "data/train.csv"
+  test_path: "data/test.csv"
+  sample_submission_path: "data/sample_submission.csv"
+  
+# Model parameters
+model:
+  type: "transformer"  # Options: transformer, lstm, cnn, ensemble
+  model_name: "microsoft/DialoGPT-medium"  # Default transformer model
+  max_length: 512
+  batch_size: 16
+  learning_rate: 2e-5
+  epochs: 5
+  
+# Feature engineering
+features:
+  text_length: true
+  readability_scores: true
+  linguistic_features: true
+  statistical_features: true
+  perplexity: true
+  
+# Training
+training:
+  validation_split: 0.2
+  random_state: 42
+  early_stopping_patience: 3
+  
+# Evaluation
+evaluation:
+  metric: "pairwise_accuracy"
+  cross_validation_folds: 5
+  
+# Output
+output:
+  submission_file: "submissions/submission.csv"
+  model_checkpoint: "models/best_model.pth"
+  logs_dir: "logs/"
+  
+# Hardware
+hardware:
+  device: "auto"  # auto, cpu, cuda
+  num_workers: 4

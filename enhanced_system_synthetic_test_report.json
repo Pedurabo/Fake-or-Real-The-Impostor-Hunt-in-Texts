@@ -1,0 +1,44 @@
+{
+  "test_timestamp": "2025-09-02T15:41:08.032057",
+  "data_info": {
+    "total_samples": 800,
+    "total_features": 43,
+    "target_distribution": {
+      "0": 421,
+      "1": 379
+    }
+  },
+  "enhanced_system_results": {
+    "best_feature_count": 25,
+    "selected_features": [
+      "space_term_difference",
+      "text1_avg_sentence_length",
+      "text2_sentence_count",
+      "text1_info_density",
+      "text2_punctuation",
+      "text1_char_count",
+      "vocab_difference",
+      "text2_vocab_richness",
+      "text_1_quality",
+      "text2_uppercase",
+      "text2_numbers",
+      "text1_avg_word_length",
+      "text1_vocab_richness",
+      "text2_space_ratio",
+      "word_count_ratio",
+      "text2_avg_word_length",
+      "text2_char_count",
+      "text2_repetition",
+      "text2_avg_sentence_length",
+      "text_2_length",
+      "text1_space_ratio",
+      "text_2_word_count",
+      "text1_numbers",
+      "text2_space_terms",
+      "complexity_difference"
+    ],
+    "best_model_name": "Random Forest",
+    "best_f1_score": 0.49680275454992623
+  },
+  "test_status": "COMPLETED"
+}

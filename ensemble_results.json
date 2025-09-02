@@ -1,0 +1,11 @@
+{
+  "pipeline_type": "ensemble_fast_transformer",
+  "execution_time": "2025-09-02 12:44:18.304599",
+  "fast_pipeline_accuracy": 0.8421052631578947,
+  "transformer_pipeline_accuracy": 0.7894736842105263,
+  "ensemble_predictions_count": 1068,
+  "ensemble_method_distribution": {
+    "transformer_high_conf": 848,
+    "fast_model_backup": 220
+  }
+}

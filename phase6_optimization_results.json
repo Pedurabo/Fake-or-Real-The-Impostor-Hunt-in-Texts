@@ -1,0 +1,210 @@
+{
+  "phase": "phase6_advanced_optimization",
+  "timestamp": "2025-09-02 14:05:33.086123",
+  "optimized_models": {
+    "knn": {
+      "best_score": 0.8147945845004669
+    },
+    "decision_tree": {
+      "best_score": 0.8415776054011349
+    },
+    "random_forest": {
+      "best_score": 0.8147945845004669
+    },
+    "logistic_regression": {
+      "best_score": 0.8002486892192776
+    },
+    "svm": {
+      "best_score": 0.7546783453904198
+    },
+    "xgboost": {
+      "best_score": 0.8267460317460318
+    },
+    "lightgbm": {
+      "best_score": 0.8267460317460318
+    }
+  },
+  "evaluation_results": {
+    "knn": {
+      "accuracy": 0.7894736842105263,
+      "f1_score": 0.7840909090909092,
+      "best_params": {
+        "metric": "euclidean",
+        "n_neighbors": 7,
+        "weights": "uniform"
+      },
+      "cv_score": 0.8147945845004669
+    },
+    "decision_tree": {
+      "accuracy": 0.7368421052631579,
+      "f1_score": 0.7246376811594203,
+      "best_params": {
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_depth": 3,
+        "criterion": "entropy"
+      },
+      "cv_score": 0.8415776054011349
+    },
+    "random_forest": {
+      "accuracy": 0.6842105263157895,
+      "f1_score": 0.6761363636363636,
+      "best_params": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_depth": 5
+      },
+      "cv_score": 0.8147945845004669
+    },
+    "logistic_regression": {
+      "accuracy": 0.8421052631578947,
+      "f1_score": 0.8421052631578947,
+      "best_params": {
+        "C": 1,
+        "penalty": "l1",
+        "solver": "liblinear"
+      },
+      "cv_score": 0.8002486892192776
+    },
+    "svm": {
+      "accuracy": 0.7368421052631579,
+      "f1_score": 0.7246376811594203,
+      "best_params": {
+        "kernel": "rbf",
+        "gamma": "auto",
+        "C": 1
+      },
+      "cv_score": 0.7546783453904198
+    },
+    "xgboost": {
+      "accuracy": 0.6842105263157895,
+      "f1_score": 0.6761363636363636,
+      "best_params": {
+        "subsample": 0.9,
+        "n_estimators": 100,
+        "max_depth": 5,
+        "learning_rate": 0.01
+      },
+      "cv_score": 0.8267460317460318
+    },
+    "lightgbm": {
+      "accuracy": 0.7368421052631579,
+      "f1_score": 0.7246376811594203,
+      "best_params": {
+        "subsample": 0.9,
+        "n_estimators": 100,
+        "max_depth": 5,
+        "learning_rate": 0.01
+      },
+      "cv_score": 0.8267460317460318
+    },
+    "soft_voting": {
+      "accuracy": 0.7894736842105263,
+      "f1_score": 0.7840909090909092,
+      "type": "ensemble"
+    },
+    "hard_voting": {
+      "accuracy": 0.7894736842105263,
+      "f1_score": 0.7840909090909092,
+      "type": "ensemble"
+    },
+    "weighted_voting": {
+      "accuracy": 0.7894736842105263,
+      "f1_score": 0.7840909090909092,
+      "type": "ensemble"
+    }
+  },
+  "feature_importance": {
+    "feature_0": 0.10510993031982663,
+    "feature_1": 0.11855030000255806,
+    "feature_2": 0.10637821612758613,
+    "feature_3": 0.016136988057410706,
+    "feature_4": 0.09667706201853732,
+    "feature_5": 0.14500052218410264,
+    "feature_6": 0.038761160410685,
+    "feature_7": 0.0,
+    "feature_8": 0.08499156184619472,
+    "feature_9": 0.01879586061759886,
+    "feature_10": 0.14814755789692802,
+    "feature_11": 0.2972155795793172,
+    "feature_12": 0.15316459860475784,
+    "feature_13": 0.11319606932701798,
+    "feature_14": 0.0,
+    "feature_15": 0.17030883422809584,
+    "feature_16": 0.0026540893771436203,
+    "feature_17": 0.10657502224544468,
+    "feature_18": 0.001892862300127085,
+    "feature_19": 0.08507287944319608,
+    "feature_20": 0.12856896397622886,
+    "feature_21": 0.07405228182796764,
+    "feature_22": 0.10267559564864981,
+    "feature_23": 0.09182789207852493,
+    "feature_24": 0.20045650625850775,
+    "feature_25": 0.1335180353726686,
+    "feature_26": 0.13448950542308613,
+    "feature_27": 0.1073446473571753,
+    "feature_28": 0.04818520300036222,
+    "feature_29": 0.024911437292385985,
+    "feature_30": 0.10544424512782546,
+    "feature_31": 0.06470077806856911,
+    "feature_32": 0.035763810538335106,
+    "feature_33": 0.1938766122600868,
+    "feature_34": 0.03807090209658792,
+    "feature_35": 0.1236071468184079,
+    "feature_36": 0.0,
+    "feature_37": 0.04796543008322107,
+    "feature_38": 0.0,
+    "feature_39": 0.021651429756062823,
+    "feature_40": 0.05232271388129428,
+    "feature_41": 0.06273021573616444,
+    "feature_42": 0.0,
+    "feature_43": 0.019855329614374417,
+    "feature_44": 0.07515156631540965,
+    "feature_45": 0.16113015278741738,
+    "feature_46": 0.0,
+    "feature_47": 0.0,
+    "feature_48": 0.0,
+    "feature_49": 0.07058020565852319,
+    "feature_50": 0.0,
+    "feature_51": 0.08757078087278236,
+    "feature_52": 0.12322032869338284,
+    "feature_53": 0.0076723167637919865,
+    "feature_54": 0.0567163283078036,
+    "feature_55": 0.007676114136010437,
+    "feature_56": 0.0,
+    "feature_57": 0.04208633111201676,
+    "feature_58": 0.0,
+    "feature_59": 0.0
+  },
+  "cv_scores": {
+    "stratified_5_fold": {
+      "knn": 0.7886507936507938,
+      "decision_tree": 0.7926587301587302,
+      "random_forest": 0.790704589528119,
+      "logistic_regression": 0.7866505063563889,
+      "svm": 0.7459622549792829,
+      "xgboost": 0.7711111111111111,
+      "lightgbm": 0.7453409825468651
+    },
+    "stratified_10_fold": {
+      "knn": 0.8102380952380951,
+      "decision_tree": 0.8094444444444443,
+      "random_forest": 0.7865079365079364,
+      "logistic_regression": 0.8096031746031747,
+      "svm": 0.7576984126984125,
+      "xgboost": 0.7588888888888888,
+      "lightgbm": 0.7934126984126983
+    },
+    "stratified_leave_one_out": {
+      "knn": 0.7683333333333333,
+      "decision_tree": 0.8150000000000001,
+      "random_forest": 0.7933333333333332,
+      "logistic_regression": 0.7883333333333333,
+      "svm": 0.7333333333333333,
+      "xgboost": 0.745,
+      "lightgbm": 0.7133333333333333
+    }
+  },
+  "next_phase": "Phase 7: Production Pipeline"
+}

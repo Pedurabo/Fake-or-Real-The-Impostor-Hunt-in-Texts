@@ -1,0 +1,79 @@
+# Large files and models
+*.pth
+*.pkl
+*.h5
+*.model
+*.bin
+
+# Data files (but allow code files)
+*.csv
+*.json
+# Allow Python files and important text files
+!*.py
+!requirements.txt
+!README.md
+!*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model outputs
+submissions/
+outputs/
+results/
+models/
+checkpoints/
+
+# Large data directories
+src/temp_data/
+data/
+datasets/
