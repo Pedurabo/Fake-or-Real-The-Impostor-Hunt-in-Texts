@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-09-03 13:06:19",
+  "submission_name": "Ultra Fast Enhanced BERT",
+  "baseline_score": 0.73858,
+  "enhancement_summary": {
+    "original_predictions": {
+      "total": 50,
+      "real": "21",
+      "fake": "29",
+      "real_percentage": 42.0,
+      "fake_percentage": 57.99999999999999
+    },
+    "enhanced_predictions": {
+      "total": 50,
+      "real": "21",
+      "fake": "29",
+      "real_percentage": 42.0,
+      "fake_percentage": 57.99999999999999
+    },
+    "changes": {
+      "real_change": "0",
+      "fake_change": "0",
+      "real_percentage_change": 0.0
+    }
+  },
+  "enhancement_techniques": [
+    "Confidence-weighted predictions",
+    "Class balance adjustment",
+    "Synthetic feature ensemble",
+    "Multi-strategy voting"
+  ]
+}

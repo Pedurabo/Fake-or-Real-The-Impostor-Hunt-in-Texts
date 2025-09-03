@@ -1,21 +1,20 @@
 {
   "pipeline_type": "advanced_ensemble_phase3",
-  "execution_time": "2025-09-02 13:16:49.550437",
+  "execution_time": "2025-09-03 11:39:55.042471",
   "base_pipelines_success": true,
   "advanced_features_count": 1068,
   "hybrid_predictions_count": 1068,
   "primary_method_distribution": {
-    "transformer": 656,
-    "voting": 412
+    "stacking": 1068
   },
   "hybrid_confidence_stats": {
     "count": 1068.0,
-    "mean": 2.4601056096548475,
-    "std": 0.4482130316635619,
-    "min": 1.6177992484249788,
-    "25%": 2.1353185503967516,
-    "50%": 2.4141074758948244,
-    "75%": 2.8726583015137273,
-    "max": 3.1778141254548844
+    "mean": 5.14783635101992,
+    "std": 0.056559653824057615,
+    "min": 5.057800755930395,
+    "25%": 5.057800755930395,
+    "50%": 5.183333413313701,
+    "75%": 5.183333413313701,
+    "max": 5.183333413313701
   }
 }

@@ -35,8 +35,8 @@ def test_advanced_ensemble_pipeline():
         if results:
             print("\n🏆 PHASE 3 COMPLETE PIPELINE RESULTS:")
             print("=" * 60)
-            print(f"📊 Base Pipelines: {'✅' if results['base_pipelines'] else '❌'}")
-            print(f"🔬 Advanced Features: {'✅' if results['advanced_features'] else '❌'}")
+            print(f"📊 Phase 11 Submission Loaded: {'✅' if results['phase11_submission_loaded'] else '❌'}")
+            print(f"🔬 Ensemble Variations Created: {'✅' if results['ensemble_variations_created'] else '❌'}")
             print(f"🏗️  Stacking Classifier: {'✅' if results['stacking_classifier'] else '❌'}")
             print(f"🗳️  Voting Classifier: {'✅' if results['voting_classifier'] else '❌'}")
             print(f"🔗 Hybrid Predictions: {'✅' if results['hybrid_predictions'] else '❌'}")

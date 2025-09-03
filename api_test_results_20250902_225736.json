@@ -1,0 +1,52 @@
+{
+  "/": {
+    "endpoint": "/",
+    "method": "GET",
+    "status_code": null,
+    "expected_status": 200,
+    "success": false,
+    "response_time_ms": null,
+    "error": "name 'response_time_ms' is not defined",
+    "timestamp": "2025-09-02T22:57:28.199804"
+  },
+  "/health": {
+    "endpoint": "/health",
+    "method": "GET",
+    "status_code": null,
+    "expected_status": 200,
+    "success": false,
+    "response_time_ms": null,
+    "error": "name 'response_time_ms' is not defined",
+    "timestamp": "2025-09-02T22:57:30.265624"
+  },
+  "/favicon.ico": {
+    "endpoint": "/favicon.ico",
+    "method": "GET",
+    "status_code": null,
+    "expected_status": 200,
+    "success": false,
+    "response_time_ms": null,
+    "error": "name 'response_time_ms' is not defined",
+    "timestamp": "2025-09-02T22:57:32.316408"
+  },
+  "/docs": {
+    "endpoint": "/docs",
+    "method": "GET",
+    "status_code": null,
+    "expected_status": 200,
+    "success": false,
+    "response_time_ms": null,
+    "error": "name 'response_time_ms' is not defined",
+    "timestamp": "2025-09-02T22:57:34.372465"
+  },
+  "/openapi.json": {
+    "endpoint": "/openapi.json",
+    "method": "GET",
+    "status_code": null,
+    "expected_status": 200,
+    "success": false,
+    "response_time_ms": null,
+    "error": "name 'response_time_ms' is not defined",
+    "timestamp": "2025-09-02T22:57:36.424285"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "boosting_timestamp": "2025-09-02T20:59:59.957936",
+  "phase_1_feature_engineering": {
+    "original_features": 19,
+    "boosted_features": 69,
+    "new_features_created": 50,
+    "enhancement_ratio": "263.2%"
+  },
+  "phase_2_feature_selection": {
+    "total_boosted_features": 69,
+    "selected_features": 35,
+    "feature_reduction": "49.3%",
+    "selected_feature_names": [
+      "text1_complexity_rolling_mean_3",
+      "complexity_vocab_ratio_2",
+      "sentence_length_product",
+      "text1_complexity_rolling_std_5",
+      "text1_complexity_bin_3",
+      "repetition_product",
+      "text2_repetition",
+      "info_density_ratio",
+      "vocab_sum",
+      "text2_avg_sentence_length",
+      "info_density_difference",
+      "text1_complexity_bin_7",
+      "text1_avg_word_length",
+      "sentence_length_harmonic_mean",
+      "text1_complexity_bin_5",
+      "vocab_product",
+      "sentence_length_ratio",
+      "text1_complexity",
+      "sentence_length_variance",
+      "text1_complexity_rolling_std_3",
+      "complexity_vocab_ratio",
+      "complexity_vocab_interaction_2",
+      "text2_info_density",
+      "word_count_ratio",
+      "word_count_difference_squared",
+      "text1_complexity_sin",
+      "complexity_product",
+      "vocab_difference",
+      "word_count_difference",
+      "text1_repetition",
+      "text1_complexity_sqrt",
+      "text2_complexity_sin",
+      "space_term_difference",
+      "text1_complexity_squared",
+      "vocab_difference_squared"
+    ]
+  },
+  "phase_3_hyperparameter_optimization": {
+    "extra_trees_score": 0.5083821184024908,
+    "random_forest_score": 0.5131691864723703,
+    "gradient_boosting_score": 0.5217710117527883
+  },
+  "phase_4_ensemble_results": {
+    "voting": {
+      "f1": 0.5132920807768035,
+      "std": 0.024539894640046803
+    },
+    "stacking": {
+      "f1": 0.46000824616288316,
+      "std": 0.011865563459024342
+    }
+  },
+  "best_ensemble": {
+    "name": "voting",
+    "f1_score": 0.5132920807768035,
+    "stability": 0.024539894640046803
+  },
+  "performance_improvement": {
+    "baseline_f1": 0.5499,
+    "boosted_f1": 0.5132920807768035,
+    "improvement": "-6.7%"
+  }
+}

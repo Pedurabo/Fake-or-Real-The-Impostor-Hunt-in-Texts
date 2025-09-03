@@ -17,6 +17,9 @@ spacy>=3.4.0
 textstat>=0.7.0
 language-tool-python>=2.7.0
 
+# Advanced NLP (optional - alternative implementations provided if not available)
+gensim>=4.0.0  # For Word2Vec, FastText, Doc2Vec features
+
 # Feature engineering
 scipy>=1.7.0
 scikit-learn>=1.0.0

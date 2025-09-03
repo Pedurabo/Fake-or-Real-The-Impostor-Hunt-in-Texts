@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-09-03 12:39:02",
+  "total_submissions": 6,
+  "submission_names": [
+    "Fast BERT Features",
+    "Lightning Fast Text",
+    "Phase 11 Baseline",
+    "Competition Final",
+    "Advanced Ensemble",
+    "Ensemble"
+  ],
+  "comparison_summary": {
+    "Fast BERT Features": {
+      "total_predictions": 1068,
+      "real_predictions": 559,
+      "fake_predictions": 509,
+      "real_percentage": 52.340823970037455,
+      "fake_percentage": 47.659176029962545
+    },
+    "Lightning Fast Text": {
+      "total_predictions": 1068,
+      "real_predictions": 580,
+      "fake_predictions": 488,
+      "real_percentage": 54.30711610486891,
+      "fake_percentage": 45.69288389513109
+    },
+    "Phase 11 Baseline": {
+      "total_predictions": 1068,
+      "real_predictions": 729,
+      "fake_predictions": 339,
+      "real_percentage": 68.25842696629213,
+      "fake_percentage": 31.741573033707866
+    },
+    "Competition Final": {
+      "total_predictions": 1068,
+      "real_predictions": 766,
+      "fake_predictions": 302,
+      "real_percentage": 71.72284644194757,
+      "fake_percentage": 28.277153558052436
+    },
+    "Advanced Ensemble": {
+      "total_predictions": 1068,
+      "real_predictions": 766,
+      "fake_predictions": 302,
+      "real_percentage": 71.72284644194757,
+      "fake_percentage": 28.277153558052436
+    },
+    "Ensemble": {
+      "total_predictions": 1068,
+      "real_predictions": 766,
+      "fake_predictions": 302,
+      "real_percentage": 71.72284644194757,
+      "fake_percentage": 28.277153558052436
+    }
+  }
+}

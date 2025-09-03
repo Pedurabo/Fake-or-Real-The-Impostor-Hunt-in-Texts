@@ -1,0 +1,117 @@
+{
+  "/": {
+    "endpoint": "/",
+    "method": "GET",
+    "status_code": 200,
+    "expected_status": 200,
+    "success": true,
+    "response_time_ms": 2093.82,
+    "content": {
+      "message": "Text Detection API",
+      "accuracy": "95.50%"
+    },
+    "timestamp": "2025-09-02T22:58:01.782833"
+  },
+  "/health": {
+    "endpoint": "/health",
+    "method": "GET",
+    "status_code": 200,
+    "expected_status": 200,
+    "success": true,
+    "response_time_ms": 2051.66,
+    "content": {
+      "status": "healthy",
+      "models": 4
+    },
+    "timestamp": "2025-09-02T22:58:03.834872"
+  },
+  "/favicon.ico": {
+    "endpoint": "/favicon.ico",
+    "method": "GET",
+    "status_code": 200,
+    "expected_status": 200,
+    "success": true,
+    "response_time_ms": 2064.51,
+    "content": {
+      "message": "Favicon not implemented yet",
+      "status": "placeholder"
+    },
+    "timestamp": "2025-09-02T22:58:05.899838"
+  },
+  "/docs": {
+    "endpoint": "/docs",
+    "method": "GET",
+    "status_code": 200,
+    "expected_status": 200,
+    "success": true,
+    "response_time_ms": 2049.59,
+    "content": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui.css\">\n    <link rel=\"shortcut icon\" href=\"https://fastapi.tiangolo.com/img/favicon.png\">\n    <title>Text Detection API - Swagger UI</title>\n    </head>\n    <body>\n    <div id=\"swagger-ui\">\n    </div>\n    <script src=\"https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui-bundle.js\"></script>\n    <!-- `SwaggerUIBundle` is now available on the page -->\n    <script>\n    const ui = SwaggerUIBundle({\n        url: '/openapi.json',\n    \"dom_id\": \"#swagger-ui\",\n\"layout\": \"BaseLayout\",\n\"deepLinking\": true,\n\"showExtensions\": true,\n\"showCommonExtensions\": true,\noauth2RedirectUrl: window.location.origin + '/docs/oauth2-redirect',\n    presets: [\n        SwaggerUIBundle.presets.apis,\n        SwaggerUIBundle.SwaggerUIStandalonePreset\n        ],\n    })\n    </script>\n    </body>\n    </html>\n    ",
+    "timestamp": "2025-09-02T22:58:07.950201"
+  },
+  "/openapi.json": {
+    "endpoint": "/openapi.json",
+    "method": "GET",
+    "status_code": 200,
+    "expected_status": 200,
+    "success": true,
+    "response_time_ms": 2050.66,
+    "content": {
+      "openapi": "3.1.0",
+      "info": {
+        "title": "Text Detection API",
+        "version": "1.0.0"
+      },
+      "paths": {
+        "/": {
+          "get": {
+            "summary": "Root",
+            "operationId": "root__get",
+            "responses": {
+              "200": {
+                "description": "Successful Response",
+                "content": {
+                  "application/json": {
+                    "schema": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "/health": {
+          "get": {
+            "summary": "Health",
+            "operationId": "health_health_get",
+            "responses": {
+              "200": {
+                "description": "Successful Response",
+                "content": {
+                  "application/json": {
+                    "schema": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "/favicon.ico": {
+          "get": {
+            "summary": "Favicon",
+            "operationId": "favicon_favicon_ico_get",
+            "responses": {
+              "200": {
+                "description": "Successful Response",
+                "content": {
+                  "application/json": {
+                    "schema": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "timestamp": "2025-09-02T22:58:10.001689"
+  }
+}

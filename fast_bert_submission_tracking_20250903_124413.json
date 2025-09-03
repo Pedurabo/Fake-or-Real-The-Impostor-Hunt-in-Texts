@@ -1,0 +1,12 @@
+{
+  "submission_name": "Fast BERT Features",
+  "submission_timestamp": "2025-09-03 12:44:13",
+  "total_predictions": 1068,
+  "real_predictions": 559,
+  "fake_predictions": 509,
+  "real_percentage": 52.340823970037455,
+  "fake_percentage": 47.659176029962545,
+  "competition_file": "fast_bert_competition_submission.csv",
+  "status": "Ready for submission",
+  "notes": "BERT-based feature extraction with Logistic Regression classifier"
+}

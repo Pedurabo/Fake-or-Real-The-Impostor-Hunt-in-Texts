@@ -1,0 +1,40 @@
+# Data Preparation Pipeline Requirements
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Text processing and NLP
+nltk>=3.8
+textblob>=0.17.0
+
+# Database and data storage
+sqlite3
+
+# Visualization (optional)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Data processing utilities
+pathlib
+typing
+logging
+json
+pickle
+collections
+re
+datetime
+time
+warnings
+
+# Machine learning and feature engineering
+scikit-learn[feature_extraction]
+scikit-learn[decomposition]
+scikit-learn[feature_selection]
+scikit-learn[cluster]
+scikit-learn[manifold]
+scikit-learn[metrics]
+scikit-learn[preprocessing]
+
+# Additional utilities
+pathlib2>=2.3.0

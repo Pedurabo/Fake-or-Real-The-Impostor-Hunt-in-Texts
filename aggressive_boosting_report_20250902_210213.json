@@ -1,0 +1,61 @@
+{
+  "boosting_timestamp": "2025-09-02T21:02:13.953887",
+  "phase_1_feature_engineering": {
+    "original_features": 19,
+    "boosted_features": 24,
+    "new_features_created": 5,
+    "enhancement_ratio": "26.3%"
+  },
+  "phase_2_feature_selection": {
+    "total_boosted_features": 24,
+    "selected_features": 20,
+    "feature_reduction": "16.7%",
+    "selected_feature_names": [
+      "word_count_difference",
+      "word_count_ratio",
+      "text1_repetition",
+      "space_term_difference",
+      "info_density_difference",
+      "text1_vocab_richness",
+      "vocab_difference",
+      "text1_complexity",
+      "text2_vocab_richness",
+      "text1_complexity_squared",
+      "complexity_product",
+      "complexity_difference",
+      "info_density_mean",
+      "text2_info_density",
+      "text2_complexity",
+      "text1_avg_word_length",
+      "text2_repetition",
+      "text2_complexity_squared",
+      "text1_info_density",
+      "text2_avg_sentence_length"
+    ]
+  },
+  "phase_3_hyperparameter_optimization": {
+    "extra_trees_score": 0.5140023059185436,
+    "random_forest_score": 0.5316690743509275,
+    "gradient_boosting_score": 0.5259340488943466
+  },
+  "phase_4_ensemble_results": {
+    "voting": {
+      "f1": 0.529752160388761,
+      "std": 0.02332842625419506
+    },
+    "stacking": {
+      "f1": 0.47030192692845385,
+      "std": 0.05240372768633611
+    }
+  },
+  "best_ensemble": {
+    "name": "voting",
+    "f1_score": 0.529752160388761,
+    "stability": 0.02332842625419506
+  },
+  "performance_improvement": {
+    "baseline_f1": 0.5499,
+    "boosted_f1": 0.529752160388761,
+    "improvement": "-3.7%"
+  }
+}
